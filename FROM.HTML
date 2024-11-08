@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Accont</title>
+    <style>
+        .demo {
+            opacity: 0.3;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: auto;
+          }
+       
+        .abc1-span {
+            margin-bottom: 0px;
+        }
+        .abc2 {
+            margin-top: 0px;
+        }
+        .abc3 {
+            background-color: rgb(92, 66, 47);
+            font-family: Arial;
+            font-size: 20px;
+            margin-top: 50px;
+            text-align: center;
+            
+        }
+        .abcd1-from {
+            
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size:15px;
+            text-align:left;
+            margin-left: 500px;
+            font-size: 20px;
+            font-family: bold;
+            font-display: rgb(43, 27, 7);
+            margin-top: 30px;
+        }
+        .sure-continar input:first-child{
+            background-color: rgb(8, 228, 8);
+            font-size: 20px;
+            margin-left: 20px;
+            font: rgb(90, 65, 65);
+            
+        }
+        .sure-continar input:last-child{
+            background-color: rgb(190, 33, 33);
+            font-size: 20px;
+            margin-left: 30px;
+        }
+        
+    </style>
+</head>
+<body class="main">
+    <div>
+        <img class="demo" src="12345wa.jpg" >
+    </div>
+   
+    <form class="abcd1-from" >
+        Enter your name:
+        <input type="text" required>
+        <br>
+        <br>
+        Enter your email:
+        <input type="email" placeholder="asdd@gmail.com" required>
+        <br>
+        <br>
+        Enter your phone number:
+        <input type="number">
+        <br>
+        <br>
+        selct your gender:
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">other
+        <br> <br>
+        Enter your qulificaton:
+        <input type="checkbox">10th
+        <input type="checkbox">12th
+        <input type="checkbox">grauation
+        <br><br>
+        <span class="abc1-span">Enter your address:</span><br>
+        <span class="abc2"><textarea rows="2" cols="40"></textarea></span>
+        <br><br>
+    Select your city:
+        <select name="city">
+            <option value="Select your city"></option>
+            <option value="nagpur">nagpur</option>
+            <option value="pune">Pune</option>
+            <option value="mumbai">mumnai</option>
+            <option value="washingtone dc">Washingtone dc</option>
+        </select>
+        <br>
+        <br>
+        Enter brith date:
+        <input type="date" min="2000-01-22" max="2023-12-22">
+        <br><br>
+        Creat username:
+        <input type="text">
+        <br><br>
+        Creata new possword:
+        <input type="password">
+        <br><br>
+        <div class="sure-continar">
+        <input type="submit" value="Submit">
+        
+        <input type="reset" value="Reset">
+        </div>
+
+    </form>
+    
+</body>
+</html>
